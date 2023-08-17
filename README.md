@@ -2,12 +2,19 @@
 
 Welcome to our state-of-the-art School Enquiries Chatbot – your ultimate companion for all things related to school admissions and inquiries. We understand that the process of selecting the right school and gathering information can sometimes feel overwhelming. That's where our intelligent chatbot comes in to make your journey smoother, easier, and more efficient.
 
+## Features
+1. Login
+2. Signup
+3. Reset Password
+4. Update Profile
+5. ChatBot
+
 ## Installation
 
 To install the project, you need to have Python 3 and pip installed on your system. Then, follow these steps:
 
 - Clone this repository: 
-[GoPT](https://github.com/Kjeff24/SkillBuilder.git)
+[GoPT](https://github.com/Kjeff24/GOPT.git)
 - Create a virtual environment: 
 ```
 python -m venv venv
