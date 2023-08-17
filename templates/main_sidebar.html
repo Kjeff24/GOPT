@@ -1,0 +1,40 @@
+{% load static %}
+<div class="d-flex flex-column justify-content-between flex-shrink-0" style="width: 4.5rem; background-color: #202123;">
+  {% with request.resolver_match.url_name as url_name %}
+
+  <a href="{% url 'home' %}" class="p-3 mx-auto link-dark text-decoration-none {% if url_name == 'home' %} active {% endif %}" title="Home" data-bs-toggle="tooltip" data-bs-placement="right">
+    <img
+      src="{% static 'assets/home-icon.svg' %}"
+      alt="home"
+    />
+    <!-- <span class="visually-hidden">Icon-only</span> -->
+  </a>
+  <ul class="nav nav-pills nav-flush flex-column mb-auto text-center">
+    <li class="nav-item">
+      <a href="{% url 'about' %}" class="nav-link py-3 {% if url_name == 'about' %} active {% endif %}" aria-current="page" title="About" data-bs-toggle="tooltip" data-bs-placement="right">
+        <img
+      src="{% static 'assets/about-icon.svg' %}"
+      alt="about"
+    />
+      </a>
+    </li>
+  </ul>
+  <div class="dropdown border-top">
+    <a href="#" class="d-flex align-items-center justify-content-center p-3 link-dark text-decoration-none dropdown-toggle" id="dropdownUser3" data-bs-toggle="dropdown" aria-expanded="false">
+      
+      {% if user.is_authenticated %}
+      <img src="{{request.user.avatar.url}}" alt="mdo" width="30" height="30" class="rounded-circle">
+      {% else %}
+      <img src="{% static 'media/avatar.svg' %}" alt="mdo" width="30" height="30" class="rounded-circle">
+
+      {% endif %}
+    </a>
+    <ul class="dropdown-menu text-small shadow" aria-labelledby="dropdownUser3">
+      <li><a class="dropdown-item" href="{% url 'update-user' request.user.id %}">Profile</a></li>
+      <li><hr class="dropdown-divider"></li>
+      <li><a class="dropdown-item" href="{% url 'logout' %}">Sign out</a></li>
+    </ul>
+  </div>
+  
+  {% endwith %}
+</div>

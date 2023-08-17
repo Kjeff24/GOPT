@@ -1,0 +1,28 @@
+{% load static %}
+  <div class="chatbox__support vh-100 vw-100 chatbox--active">
+    <div class="chatbox__header d-flex align-items-center justify-content-center">
+      <div class="chatbox__image--header">
+        <img
+          src="{% static 'assets/logo.svg' %}"
+          alt="image"
+        />
+      </div>
+      <div class="chatbox__content--header">
+        <span class="h1 fw-bold mb-0" style="color:white">G<span style="color: #FA5C18;">o</span>PT</span>
+        
+      </div>
+    </div>
+    <div class="chatbox__messages">
+      <!-- <div></div> -->
+    </div>
+    {% if user.is_authenticated %}
+    <div class="chatbox__footer">
+      <textarea type="text" placeholder="Write a message..." id="textareabg" ></textarea>
+      <!-- <input type="submit" value="Submit"> -->
+      <button class="chatbox__send--footer send__button fw-bold" style="font-size: 18px;">Send</button>
+    </div>
+    {% else %}
+    <p class="text-center text-white">Signup to Use <span class="fw-bold mb-0" style="color:white">G<span style="color: #FA5C18;">o</span>PT</span></p>
+    {% endif %}
+  </div>
+
