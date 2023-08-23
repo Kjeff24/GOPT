@@ -75,6 +75,7 @@
     flex-direction: column;
     /* justify-content: space-between; */
     background: rgba(68,70,84);
+    
 }
 
 /* HEADER */
@@ -135,7 +136,6 @@
     align-items: center;
     gap:20px;
     background: var(--primaryGradient);
-    box-shadow: var(--secondaryBoxShadow);
 }
 
 .chatbox__footer textarea {

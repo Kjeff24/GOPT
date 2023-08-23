@@ -4,265 +4,759 @@
       "tag": "greeting",
       "patterns": [
         "Hi",
-        "Hey",
-        "How are you",
+        "How are you?",
         "Is anyone there?",
         "Hello",
         "Good day",
-        "Greetings",
-        "What's up?",
-        "Howdy",
-        "Nice to meet you"
+        "What's up",
+        "how are ya",
+        "heyy",
+        "whatsup",
+        "??? ??? ??"
       ],
       "responses": [
-        "Hey :-)",
-        "Hello, thanks for visiting",
-        "Hi there, what can I do for you?",
-        "Hi there, how can I help?",
-        "Greetings!",
-        "I'm here. How can I assist you?",
-        "Good day! How may I assist you today?",
-        "Hello, nice to meet you!",
-        "Hey! How's it going?",
-        "Hi! How can I be of service?"
-      ]
+        "Hello!",
+        "Good to see you again!",
+        "Hi there, how can I help?"
+      ],
+      "context_set": ""
     },
     {
       "tag": "goodbye",
       "patterns": [
-        "Bye",
+        "cya",
+        "see you",
+        "bye bye",
         "See you later",
         "Goodbye",
-        "Take care",
-        "Farewell",
-        "Until next time",
-        "Have a great day",
-        "Goodbye for now",
-        "Bye bye",
-        "Adios"
+        "I am Leaving",
+        "Bye",
+        "Have a Good day",
+        "talk to you later",
+        "ttyl",
+        "i got to go",
+        "gtg"
       ],
       "responses": [
-        "See you later, thanks for visiting",
-        "Have a nice day",
-        "Bye! Come back again soon.",
-        "Take care and have a wonderful day!",
-        "Farewell! Have a great day ahead.",
-        "Until next time! Goodbye!",
-        "Wishing you a fantastic day ahead!",
-        "Goodbye for now! Feel free to return anytime.",
-        "Bye bye! Take care!",
-        "Adios! Have a great day!"
-      ]
-    },    
+        "Sad to see you go :(",
+        "Talk to you later",
+        "Goodbye!",
+        "Come back soon"
+      ],
+      "context_set": ""
+    },
     {
-      "tag": "thanks",
+      "tag": "creator",
       "patterns": [
+        "what is the name of your developers",
+        "what is the name of your creators",
+        "what is the name of the developers",
+        "what is the name of the creators",
+        "who created you",
+        "your developers",
+        "your creators",
+        "who are your developers",
+        "developers",
+        "you are made by",
+        "you are made by whom",
+        "who created you",
+        "who create you",
+        "creators",
+        "who made you",
+        "who designed you"
+      ],
+      "responses": [
+        "College students"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "name",
+        "your name",
+        "do you have a name",
+        "what are you called",
+        "what is your name",
+        "what should I call you",
+        "whats your name?",
+        "what are you",
+        "who are you",
+        "who is this",
+        "what am i chatting to",
+        "who am i taking to",
+        "what are you"
+      ],
+      "responses": [
+        "You can call me Mind Reader.",
+        "I'm Mind Reader",
+        "I am a Chatbot.",
+        "I am your helper"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "hours",
+      "patterns": [
+        "timing of college",
+        "what is college timing",
+        "working days",
+        "when are you guys open",
+        "what are your hours",
+        "hours of operation",
+        "when is the college open",
+        "college timing",
+        "what about college timing",
+        "is college open on saturday",
+        "tell something about college timing",
+        "what is the college  hours",
+        "when should i come to college",
+        "when should i attend college",
+        "what is my college time",
+        "college timing",
+        "timing college"
+      ],
+      "responses": [
+        "College is open 8am-5pm Monday-Saturday!"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "number",
+      "patterns": [
+        "more info",
+        "contact info",
+        "how to contact college",
+        "college telephone number",
+        "college number",
+        "What is your contact no",
+        "Contact number?",
+        "how to call you",
+        "College phone no?",
+        "how can i contact you",
+        "Can i get your phone number",
+        "how can i call you",
+        "phone number",
+        "phone no",
+        "call"
+      ],
+      "responses": [
+        "You can contact at: NUMBER"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "course",
+      "patterns": [
+        "list of courses",
+        "list of courses offered",
+        "list of courses offered in",
+        "what are the courses offered in your college?",
+        "courses?",
+        "courses offered",
+        "courses offered in (your univrsity(UNI) name)",
+        "courses you offer",
+        "branches?",
+        "courses available at UNI?",
+        "branches available at your college?",
+        "what are the courses in UNI?",
+        "what are branches in UNI?",
+        "what are courses in UNI?",
+        "branches available in UNI?",
+        "can you tell me the courses available in UNI?",
+        "can you tell me the branches available in UNI?",
+        "computer engineering?",
+        "computer",
+        "Computer engineering?",
+        "it",
+        "IT",
+        "Information Technology",
+        "AI/Ml",
+        "Mechanical engineering",
+        "Chemical engineering",
+        "Civil engineering"
+      ],
+      "responses": [
+        "Our university offers Information Technology, computer Engineering, Mechanical engineering,Chemical engineering, Civil engineering and extc Engineering."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "fees",
+      "patterns": [
+        "information about fee",
+        "information on fee",
+        "tell me the fee",
+        "college fee",
+        "fee per semester",
+        "what is the fee of each semester",
+        "what is the fees of each year",
+        "what is fee",
+        "what is the fees",
+        "how much is the fees",
+        "fees for first year",
+        "fees",
+        "about the fees",
+        "tell me something about the fees",
+        "What is the fees of hostel",
+        "how much is the fees",
+        "hostel fees",
+        "fees for AC room",
+        "fees for non-AC room",
+        "fees for Ac room for girls",
+        "fees for non-Ac room for girls",
+        "fees for Ac room for boys",
+        "fees for non-Ac room for boys"
+      ],
+      "responses": [
+        "For Fee detail visit <a target=\"_blank\" href=\"LINK\"> here</a>"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "where is the college located",
+        "college is located at",
+        "where is college",
+        "where is college located",
+        "address of college",
+        "how to reach college",
+        "college location",
+        "college address",
+        "wheres the college",
+        "how can I reach college",
+        "whats is the college address",
+        "what is the address of college",
+        "address",
+        "location"
+      ],
+      "responses": [
+        "<a target=\"_blank\" href=\"ADD YOU GOOGLE MAP LINK HERE\"> here</a>"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "hostel",
+      "patterns": [
+        "hostel facility",
+        "hostel servive",
+        "hostel location",
+        "hostel address",
+        "hostel facilities",
+        "hostel fees",
+        "Does college provide hostel",
+        "Is there any hostel",
+        "Where is hostel",
+        "do you have hostel",
+        "do you guys have hostel",
+        "hostel",
+        "hostel capacity",
+        "what is the hostel fee",
+        "how to get in hostel",
+        "what is the hostel address",
+        "how far is hostel from college",
+        "hostel college distance",
+        "where is the hostel",
+        "how big is the hostel",
+        "distance between college and hostel",
+        "distance between hostel and college"
+      ],
+      "responses": [
+        "For hostel detail visit <a target=\"_blank\" href=\"ADD YOUR HOSTEL DETAIL PDF LINK OR ANY INFORMATION LINK OR ADD YOU OWN ANSWERS\"> here</a>"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "event",
+      "patterns": [
+        "events organised",
+        "list of events",
+        "list of events organised in college",
+        "list of events conducted in college",
+        "What events are conducted in college",
+        "Are there any event held at college",
+        "Events?",
+        "functions",
+        "what are the events",
+        "tell me about events",
+        "what about events"
+      ],
+      "responses": [
+        "For event detail visit <a target=\"_blank\" href=\"ADD YOUR FUNCTIONS LINK OR YOUR OWN RESPONSE\"> here</a>"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "document",
+      "patterns": [
+        "document to bring",
+        "documents needed for admision",
+        "documents needed at the time of admission",
+        "documents needed during admission",
+        "documents required for admision",
+        "documents required at the time of admission",
+        "documents required during admission",
+        "What document are required for admission",
+        "Which document to bring for admission",
+        "documents",
+        "what documents do i need",
+        "what documents do I need for admission",
+        "documents needed"
+      ],
+      "responses": [
+        "To know more about document required visit <a target=\"_blank\" href=\"ADD LINK OF ADMISSION GUIDANCE DOCUMENT FROM YOUR UNIVERSITY WEBSITE\"> here</a>"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "floors",
+      "patterns": [
+        "size of campus",
+        "building size",
+        "How many floors does college have",
+        "floors in college",
+        "floors in college",
+        "how tall is UNI's College of Engineering college building",
+        "floors"
+      ],
+      "responses": [
+        "My College has total 2 floors "
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "syllabus",
+      "patterns": [
+        "Syllabus for IT",
+        "what is the Information Technology syllabus",
+        "syllabus",
+        "timetable",
+        "what is IT syllabus",
+        "syllabus",
+        "What is next lecture"
+      ],
+      "responses": [
+        "Timetable provide direct to the students OR To know about syllabus visit <a target=\"_blank\" href=\"TIMETABLE LINK\"> here</a>"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "library",
+      "patterns": [
+        "is there any library",
+        "library facility",
+        "library facilities",
+        "do you have library",
+        "does the college have library facility",
+        "college library",
+        "where can i get books",
+        "book facility",
+        "Where is library",
+        "Library",
+        "Library information",
+        "Library books information",
+        "Tell me about library",
+        "how many libraries"
+      ],
+      "responses": [
+        "There is one huge and spacious library.timings are 8am to 6pm and for more visit <a target=\"blank\" href=\"ADD LIBRARY DETAIL LINK\">here</a>"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "infrastructure",
+      "patterns": [
+        "how is college infrastructure",
+        "infrastructure",
+        "college infrastructure"
+      ],
+      "responses": [
+        "Our University has Excellent Infrastructure. Campus is clean. Good IT Labs With Good Speed of Internet connection"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "canteen",
+      "patterns": [
+        "food facilities",
+        "canteen facilities",
+        "canteen facility",
+        "is there any canteen",
+        "Is there a cafetaria in college",
+        "Does college have canteen",
+        "Where is canteen",
+        "where is cafetaria",
+        "canteen",
+        "Food",
+        "Cafetaria"
+      ],
+      "responses": [
+        "Our university has canteen with variety of food available"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "menu",
+      "patterns": [
+        "food menu",
+        "food in canteen",
+        "Whats there on menu",
+        "what is available in college canteen",
+        "what foods can we get in college canteen",
+        "food variety",
+        "What is there to eat?"
+      ],
+      "responses": [
+        "we serve Franky, Locho, Alu-puri, Kachori, Khavsa, Thaali and many more on menu"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "placement",
+      "patterns": [
+        "What is college placement",
+        "Which companies visit in college",
+        "What is average package",
+        "companies visit",
+        "package",
+        "About placement",
+        "placement",
+        "recruitment",
+        "companies"
+      ],
+      "responses": [
+        "To know about placement visit <a target=\"_blank\" href=\"PLACEMENT INFORMATION LINK FROM YOUR UNIVERSITY WEBSITE IF THEY HAVE\">here</a>"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "ithod",
+      "patterns": [
+        "Who is HOD",
+        "Where is HOD",
+        "it hod",
+        "name of it hod"
+      ],
+      "responses": [
+        "All engineering departments have only one hod XYZ who available on (Place name)"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "computerhod",
+      "patterns": [
+        "Who is computer HOD",
+        "Where is computer HOD",
+        "computer hod",
+        "name of computer hod"
+      ],
+      "responses": [
+        "All engineering departments have only one hod XYZ who available on (PLACE NAME)"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "extchod",
+      "patterns": [
+        "Who is extc HOD",
+        "Where is  extc HOD",
+        "extc hod",
+        "name of extc hod"
+      ],
+      "responses": [
+        "Different school wise hod are different.So be more clear with your school or department"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "principal",
+      "patterns": [
+        "what is the name of principal",
+        "whatv is the principal name",
+        "principal name",
+        "Who is college principal",
+        "Where is principal's office",
+        "principal",
+        "name of principal"
+      ],
+      "responses": [
+        "XYZ is college principal and if you need any help then call your branch hod first.That is more appropriate"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "sem",
+      "patterns": [
+        "exam dates",
+        "exam schedule",
+        "When is semester exam",
+        "Semester exam timetable",
+        "sem",
+        "semester",
+        "exam",
+        "when is exam",
+        "exam timetable",
+        "exam dates",
+        "when is semester"
+      ],
+      "responses": [
+        "Here is the Academic Calendar  <a target=\"_blank\" href=\"YOUR ACADEMIC CALENDER\">website</a>"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "admission",
+      "patterns": [
+        "what is the process of admission",
+        "what is the admission process",
+        "How to take admission in your college",
+        "What is the process for admission",
+        "admission",
+        "admission process"
+      ],
+      "responses": [
+        "Application can also be submitted online through the Unversity's  <a target=\"_blank\" href=\"LINK OF ADMISSION DOCUMENT\">website</a>"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "scholarship",
+      "patterns": [
+        "scholarship",
+        "Is scholarship available",
+        "scholarship engineering",
+        "scholarship it",
+        "scholarship ce",
+        "scholarship mechanical",
+        "scholarship civil",
+        "scholarship chemical",
+        "scholarship for AI/ML",
+        "available scholarships",
+        "scholarship for computer engineering",
+        "scholarship for IT engineering",
+        "scholarship for mechanical engineering",
+        "scholarship for civil engineering",
+        "scholarship for chemical engineering",
+        "list of scholarship",
+        "comps scholarship",
+        "IT scholarship",
+        "mechanical scholarship",
+        "civil scholarship",
+        "chemical scholarship",
+        "automobile scholarship",
+        "first year scholarship",
+        "second year scholarship",
+        "third year scholarship",
+        "fourth year scholarship"
+      ],
+      "responses": [
+        "Many government scholarships are supported by our university. For details and updates visit <a target=\"_blank\" href=\"(SCHOLARSHIP DETAILS LINK)\">here</a>"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "facilities",
+      "patterns": [
+        "What facilities college provide",
+        "College facility",
+        "What are college facilities",
+        "facilities",
+        "facilities provided"
+      ],
+      "responses": [
+        "Our university's Engineering department provides fully AC Lab with internet connection, smart classroom, Auditorium, library,canteen"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "college intake",
+      "patterns": [
+        "max number of students",
+        "number of seats per branch",
+        "number of seats in each branch",
+        "maximum number of seats",
+        "maximum students intake",
+        "What is college intake",
+        "how many stundent are taken in each branch",
+        "seat allotment",
+        "seats"
+      ],
+      "responses": [
+        "For IT, Computer and extc 60 per branch and seat may be differ for different department."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "uniform",
+      "patterns": [
+        "college dress code",
+        "college dresscode",
+        "what is the uniform",
+        "can we wear casuals",
+        "Does college have an uniform",
+        "Is there any uniform",
+        "uniform",
+        "what about uniform",
+        "do we have to wear uniform"
+      ],
+      "responses": [
+        "ENTER YOUR OWN UNIVERSITY UNIFORM CIRCULER"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "committee",
+      "patterns": [
+        "what are the different committe in college",
+        "different committee in college",
+        "Are there any committee in college",
+        "Give me committee details",
+        "committee",
+        "how many committee are there in college"
+      ],
+      "responses": [
+        "For the various committe in college contact this number: ADD NUMBER"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "random",
+      "patterns": [
+        "I love you",
+        "Will you marry me",
+        "Do you love me"
+      ],
+      "responses": [
+        "I am not program for this, please ask appropriate query"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "swear",
+      "patterns": [
+        "fuck",
+        "bitch",
+        "shut up",
+        "hell",
+        "stupid",
+        "idiot",
+        "dumb ass",
+        "asshole",
+        "fucker"
+      ],
+      "responses": [
+        "please use appropriate language",
+        "Maintaining decency would be appreciated"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "vacation",
+      "patterns": [
+        "holidays",
+        "when will semester starts",
+        "when will semester end",
+        "when is the holidays",
+        "list of holidays",
+        "Holiday in these year",
+        "holiday list",
+        "about vacations",
+        "about holidays",
+        "When is vacation",
+        "When is holidays",
+        "how long will be the vacation"
+      ],
+      "responses": [
+        "Academic calender is given to you by your class-soordinators after you join your respective classes"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "sports",
+      "patterns": [
+        "sports and games",
+        "give sports details",
+        "sports infrastructure",
+        "sports facilities",
+        "information about sports",
+        "Sports activities",
+        "please provide sports and games information"
+      ],
+      "responses": [
+        "Our university encourages all-round development of students and hence provides sports facilities in the campus. For more details visit<a target=\"_blank\" href=/\"(LINK IF HAVE)\">here</a>"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "salutaion",
+      "patterns": [
+        "okk",
+        "okie",
+        "nice work",
+        "well done",
+        "good job",
+        "thanks for the help",
+        "Thank You",
+        "its ok",
         "Thanks",
-        "Thank you",
-        "That's helpful",
-        "Thank's a lot!",
-        "I appreciate it",
-        "Many thanks",
-        "You're the best",
-        "Greatly appreciated",
-        "Thank you so much",
-        "I'm grateful"
+        "Good work",
+        "k",
+        "ok",
+        "okay"
       ],
       "responses": [
-        "Happy to help!",
-        "Any time!",
-        "My pleasure",
-        "You're welcome!",
-        "Glad I could assist",
-        "No problem at all",
-        "It was my pleasure to assist you",
-        "You're very welcome",
-        "I'm here to help whenever you need",
-        "Thank you for your kind words"
-      ]
-    },    
-    {
-      "tag": "why_skillbuilder",
-      "patterns": [
-        "Why choose SkillBuilder?",
-        "What makes SkillBuilder special?",
-        "What are the advantages of SkillBuilder?",
-        "What is SkillBuilder?",
-        "Tell me about SkillBuilder",
-        "Why should I use SkillBuilder?",
-        "How can SkillBuilder benefit me?"
+        "I am glad I helped you",
+        "welcome, anything else i can assist you with?"
       ],
-      "responses": [
-        "At SkillBuilder, we are on a mission to empower employers to improve our world with open source employee training software. With hundreds of millions of users around the globe and translated into 2 languages, SkillBuilder gives you the freedom to create online teaching and training solutions that best meet your learners' needs.",
-        "SkillBuilder empowers you to provide quality eLearning experiences. We offer a range of features and tools to build better learning experiences and improve learner outcomes. Discover inspiring stories from around the world on how SkillBuilder is being used to manage online learning and enhance learner outcomes.",
-        "SkillBuilder stands out with its commitment to innovation and user-centric design. We continuously strive to provide cutting-edge features and a seamless learning experience. With SkillBuilder, you have the flexibility to customize courses, track learner progress, and foster engagement.",
-        "What sets SkillBuilder apart is our vibrant community of educators and learners. Join our community to connect with like-minded professionals, share ideas, and learn from each other's experiences. SkillBuilder is not just a platform; it's a supportive and collaborative ecosystem for growth and success."
-      ]
-    },    
-    {
-      "tag": "learning_experiences",
-      "patterns": [
-        "How can SkillBuilder enhance learning experiences?",
-        "Tell me about the learning experience with SkillBuilder.",
-        "What features does SkillBuilder offer for better learning outcomes?",
-        "What can learners expect from SkillBuilder?",
-        "How does SkillBuilder make learning engaging?"
-      ],
-      "responses": [
-        "SkillBuilder provides a variety of features to enhance learning experiences. With interactive lessons, quizzes, and assessments, learners can actively engage with the content. SkillBuilder also offers progress tracking, feedback mechanisms, and personalized learning paths to improve outcomes and keep learners motivated.",
-        "SkillBuilder's features include gamification elements, multimedia integration, and collaborative learning tools. These functionalities contribute to a dynamic and interactive learning environment, enabling learners to have engaging and impactful experiences.",
-        "At SkillBuilder, we believe in creating immersive learning experiences. With our platform, learners can explore interactive multimedia content, participate in gamified activities, and collaborate with peers. Our goal is to make learning engaging, enjoyable, and effective.",
-        "Learners can expect a learner-centric experience with SkillBuilder. Our platform offers a seamless and intuitive interface, enabling learners to access a wide range of resources, engage with interactive content, and receive personalized feedback. SkillBuilder is designed to foster active learning and empower learners to achieve their goals."
-      ]
-    },    
-    {
-      "tag": "management",
-      "patterns": [
-        "Skillbuilder",
-        "management",
-        "How does SkillBuilder help in managing online learning?",
-        "Tell me about the management features of SkillBuilder.",
-        "What tools does SkillBuilder provide for online course management?",
-        "How can administrators manage courses on SkillBuilder?"
-      ],
-      "responses": [
-        "SkillBuilder offers comprehensive management features to facilitate online learning. It includes user management, content organization, and access control functionalities. Administrators can easily create and manage courses, track learner progress, and generate reports. SkillBuilder provides a user-friendly interface that simplifies the process of managing and monitoring online learning activities.",
-        "With SkillBuilder, administrators can efficiently organize and structure online courses. It offers content authoring tools, course scheduling, and learner enrollment management. Additionally, SkillBuilder provides analytics and reporting capabilities to track course performance and learner engagement.",
-        "SkillBuilder's management features empower administrators to effectively oversee online learning. They can create and manage user accounts, assign roles and permissions, and organize course materials. SkillBuilder's intuitive interface allows administrators to easily customize course settings, track learner progress, and generate insightful reports. Our goal is to provide administrators with the tools they need to streamline course management and ensure a seamless learning experience."
-      ]
-    },    
-    {
-      "tag": "accessibility",
-      "patterns": [
-        "accessibility",
-        "How does SkillBuilder make online education accessible?",
-        "Tell me about SkillBuilder's commitment to accessibility.",
-        "What does SkillBuilder do to ensure accessibility for all?",
-        "How is SkillBuilder accessible for users with disabilities?"
-      ],
-      "responses": [
-        "SkillBuilder is dedicated to making quality online education accessible for all. We provide a user-friendly platform that is designed with accessibility in mind. Our platform adheres to accessibility standards, such as providing alternative text for images, using proper headings for content structure, and ensuring compatibility with assistive technologies. We strive to remove barriers and provide equal learning opportunities for all learners.",
-        "Accessibility is a core focus at SkillBuilder. We prioritize inclusive design and follow WCAG (Web Content Accessibility Guidelines) standards to ensure our platform is accessible for users with disabilities. SkillBuilder incorporates features like keyboard navigation, screen reader compatibility, and adjustable text sizes to accommodate diverse learning needs. We are committed to providing a barrier-free learning environment for all users."
-      ]
+      "context_set": ""
     },
     {
-      "tag": "community",
+      "tag": "task",
       "patterns": [
-        "community",
-        "Tell me about SkillBuilder's community.",
-        "How can I get involved in the SkillBuilder community?",
-        "What benefits does the SkillBuilder community offer?",
-        "Why should I join the SkillBuilder community?"
+        "what can you do",
+        "what are the thing you can do",
+        "things you can do",
+        "what can u do for me",
+        "how u can help me",
+        "why i should use you"
       ],
       "responses": [
-        "SkillBuilder is more than just an employee training platform - we are a global community of educators, trainers, developers, system administrators, and learners. Our community is dedicated to building the world's most effective platform for online learning. We share educational resources, exchange ideas, provide support, and collaborate on improving the platform. Joining the SkillBuilder community gives you access to a network of like-minded individuals and opportunities for professional growth and knowledge sharing.",
-        "The SkillBuilder community is a vibrant and supportive network of passionate educators and learners. By joining our community, you can connect with like-minded professionals, participate in discussions, and share insights. The community offers a wealth of educational resources, best practices, and inspiration. You can also contribute to the platform's development and help shape the future of online learning. Together, we create a dynamic and collaborative environment for continuous improvement and innovation."
-      ]
-    },    
-    {
-      "tag": "history",
-      "patterns": [
-        "history",
-        "Tell me about the history of SkillBuilder.",
-        "When was SkillBuilder founded?",
-        "How has SkillBuilder evolved over the years?",
-        "Who owns SkillBuilder?",
-        "What is the journey of SkillBuilder?"
+        "I can answer to low-intermediate questions regarding college",
+        "You can ask me questions regarding college, and i will try to answer them"
       ],
-      "responses": [
-        "SkillBuilder was founded in 2023 with the vision to provide educators with a way to create quality online education experiences. Since then, SkillBuilder has grown into a leading employee training platform used by thousands of schools, universities, colleges, vocational trainers, and workplaces worldwide. Our commitment to pedagogy, open source philosophy, and collaboration with educators and technologists has shaped the evolution of SkillBuilder, enabling us to continuously improve and meet the needs of online learners.",
-        "SkillBuilder's journey started in 2023 with a clear goal: to revolutionize online education. Over the years, we have evolved into a comprehensive employee training platform that empowers educators and trainers to create engaging and effective learning experiences. Our growth has been fueled by our dedicated team, close collaboration with educators, and our continuous focus on innovation. SkillBuilder is proud to be owned by a group of passionate individuals who believe in the power of education and technology to transform lives."
-      ]
+      "context_set": ""
     },
     {
-      "tag": "values",
+      "tag": "ragging",
       "patterns": [
-        "values",
-        "What are SkillBuilder's values?",
-        "Tell me about SkillBuilder's core principles.",
-        "What guides SkillBuilder's work and decisions?",
-        "What principles does SkillBuilder uphold?"
+        "ragging",
+        "is ragging practice active in college",
+        "does college have any antiragging facility",
+        "is there any ragging cases",
+        "is ragging done here",
+        "ragging against",
+        "antiragging facility",
+        "ragging juniors",
+        "ragging history",
+        "ragging incidents"
       ],
       "responses": [
-        "At SkillBuilder, we value collaboration, openness, and dedication to quality education. Our community is committed to sharing resources, discussing new ideas, fixing issues, and improving documentation. We believe in providing support and fostering a supportive environment throughout your online learning journey. These values drive us to build a platform that empowers educators, trainers, and learners worldwide.",
-        "SkillBuilder's core principles revolve around collaboration, innovation, and learner-centricity. We believe in the power of collective knowledge, which is why we foster a strong community of educators, trainers, and learners. We encourage collaboration, open dialogue, and continuous improvement. Our decisions are guided by our commitment to delivering quality education, enhancing learning outcomes, and providing a platform that meets the evolving needs of our users."
-      ]
-    },    
-    {
-      "tag": "awards",
-      "patterns": [
-        "awards",
-        "Has SkillBuilder received any awards?",
-        "Tell me about SkillBuilder's awards and recognition.",
-        "What achievements has SkillBuilder been recognized for?",
-        "What awards has SkillBuilder won?"
+        "We are Proud to tell you that our college provides ragging free environment, and we have strict rules against ragging"
       ],
-      "responses": [
-        "SkillBuilder and the Moodle community have received numerous awards and recognition for their contributions to online education. These awards acknowledge the hard work and dedication of our team and community in continually evolving and improving the platform. SkillBuilder takes pride in being part of Open LMS, which provides world-class LMS solutions empowering organizations to meet their education and workplace learning needs.",
-        "SkillBuilder has been recognized with prestigious awards in the field of online education. These awards highlight our commitment to innovation, user experience, and the positive impact our platform has on learners and educators worldwide. We are proud of our achievements and grateful for the recognition we have received within the education community."
-      ]
-    },    
-    {
-      "tag": "pricing",
-      "patterns": [
-        "pricing",
-        "What are SkillBuilder's pricing options?",
-        "Tell me about the cost of SkillBuilder.",
-        "Is SkillBuilder free to use?",
-        "How much does SkillBuilder cost?"
-      ],
-      "responses": [
-        "SkillBuilder offers flexible pricing options to suit different needs. We have both free and paid plans available. The free plan provides basic features, while our paid plans offer additional functionalities, enhanced support, and advanced customization options. Pricing details may vary based on your specific requirements and the scale of usage. For more information on our pricing plans, please visit our website or contact our sales team. They will be happy to provide you with detailed pricing information and help you choose the plan that best fits your needs."
-      ]
+      "context_set": ""
     },
     {
-      "tag": "integration",
+      "tag": "hod",
       "patterns": [
-        "integration",
-        "Does SkillBuilder integrate with other systems or tools?",
-        "What integrations are available for SkillBuilder?",
-        "Can SkillBuilder work with my existing systems?",
-        "Is there support for integrating SkillBuilder with external tools?"
+        "hod",
+        "hod name",
+        "who is the hod"
       ],
       "responses": [
-        "SkillBuilder provides integrations with various systems and tools to enhance your learning experience. We offer seamless integrations with popular learning management systems (LMS), content authoring tools, video conferencing platforms, and more. Our goal is to ensure that SkillBuilder works harmoniously with your existing systems and tools, creating a cohesive and efficient learning ecosystem. Whether you need to integrate with an LMS, import content from external sources, or connect with video conferencing tools, SkillBuilder has you covered. Visit our website or contact our support team to learn more about the specific integrations available and how SkillBuilder can work with your existing systems."
-      ]
-    },    
-    {
-      "tag": "support",
-      "patterns": [
-        "support",
-        "How can I get support from SkillBuilder?",
-        "What support options does SkillBuilder provide?",
-        "Is there a support team available to assist me?"
+        "HODs differ for each branch, please be more specific like: (HOD it)"
       ],
-      "responses": [
-        "SkillBuilder offers comprehensive support options to assist you. Our support team is available to answer your questions and provide guidance. You can reach out to us through our support portal, email, or live chat. Additionally, we provide extensive documentation, knowledge bases, and community forums where you can find helpful resources and engage with other users."
-      ]
-    },
-    {
-      "tag": "security",
-      "patterns": [
-        "How does SkillBuilder ensure the security of user data?",
-        "What measures does SkillBuilder take to protect user information?",
-        "Is my data safe with SkillBuilder?",
-        "What security protocols are in place to safeguard user data?"
-      ],
-      "responses": [
-        "At SkillBuilder, we prioritize the security and privacy of user data. We implement robust security measures, including data encryption, access controls, and regular system audits. Our platform complies with industry standards and regulations to ensure the protection of user information. We have dedicated teams focused on maintaining the security and integrity of our systems, providing you with a safe and reliable learning environment."
-      ]
-    },
-    {
-      "tag": "customization",
-      "patterns": [
-        "Can I customize the look and feel of SkillBuilder?",
-        "What customization options are available in SkillBuilder?",
-        "Is it possible to brand SkillBuilder with my organization's logo and colors?"
-      ],
-      "responses": [
-        "SkillBuilder offers extensive customization options to match your organization's branding and style. You can personalize the platform's appearance by adding your organization's logo, choosing color schemes, and customizing the user interface. This allows you to create a consistent and branded learning experience for your users, reinforcing your organization's identity."
-      ]
-    }    
-    
+      "context_set": ""
+    }
   ]
 }

@@ -22,7 +22,9 @@
       <button class="chatbox__send--footer send__button fw-bold" style="font-size: 18px;">Send</button>
     </div>
     {% else %}
-    <p class="text-center text-white">Signup to Use <span class="fw-bold mb-0" style="color:white">G<span style="color: #FA5C18;">o</span>PT</span></p>
+    <p class="text-center text-white">
+      <a href="{% url 'signup' %}" class="text-decoration-none" style="color: #FA5C18;">Signup</a> or 
+      <a href="{% url 'login' %}" class="text-decoration-none" style="color: #FA5C18;">Login</a> to Use <span class="fw-bold mb-0" style="color:white">G<span style="color: #FA5C18;">o</span>PT</span></p>
     {% endif %}
   </div>
 
